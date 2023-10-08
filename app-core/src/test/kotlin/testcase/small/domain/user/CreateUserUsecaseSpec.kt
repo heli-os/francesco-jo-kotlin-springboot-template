@@ -22,7 +22,7 @@ import test.domain.user.randomCreateUserMessage
  * @since 2021-08-10
  */
 @SmallTest
-class CreateUserUseCaseSpec {
+class CreateUserUsecaseSpec {
     private lateinit var sut: CreateUserUseCase
     private lateinit var userRepository: UserRepository
 

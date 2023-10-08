@@ -4,7 +4,7 @@
  */
 package com.github.francescojo.core.domain.user.usecase
 
-import com.github.francescojo.core.annotation.UseCase
+import com.github.francescojo.core.annotation.Usecase
 import com.github.francescojo.core.domain.user.User
 import com.github.francescojo.core.domain.user.exception.UserByIdNotFoundException
 import com.github.francescojo.core.domain.user.repository.UserReadonlyRepository
@@ -27,7 +27,7 @@ interface FindUserUseCase {
     }
 }
 
-@UseCase
+@Usecase
 internal class FindUserUseCaseImpl(
     private val users: UserReadonlyRepository
 ) : FindUserUseCase {

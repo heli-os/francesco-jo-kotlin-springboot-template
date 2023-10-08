@@ -24,7 +24,7 @@ import java.util.*
  * @since 2021-08-10
  */
 @SmallTest
-class DeleteUserUseCaseSpec {
+class DeleteUserUsecaseSpec {
     private lateinit var sut: DeleteUserUseCase
     private lateinit var userRepository: UserRepository
 

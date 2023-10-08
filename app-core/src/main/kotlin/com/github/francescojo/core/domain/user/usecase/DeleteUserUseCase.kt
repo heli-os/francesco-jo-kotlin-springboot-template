@@ -4,7 +4,7 @@
  */
 package com.github.francescojo.core.domain.user.usecase
 
-import com.github.francescojo.core.annotation.UseCase
+import com.github.francescojo.core.annotation.Usecase
 import com.github.francescojo.core.domain.user.User
 import com.github.francescojo.core.domain.user.exception.UserByIdNotFoundException
 import com.github.francescojo.core.domain.user.repository.writable.UserRepository
@@ -26,7 +26,7 @@ interface DeleteUserUseCase {
     }
 }
 
-@UseCase
+@Usecase
 internal class DeleteUserUseCaseImpl(
     private val users: UserRepository
 ) : DeleteUserUseCase {

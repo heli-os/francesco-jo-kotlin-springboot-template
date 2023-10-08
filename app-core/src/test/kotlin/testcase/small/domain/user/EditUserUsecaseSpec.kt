@@ -26,7 +26,7 @@ import java.util.*
  * @since 2021-08-10
  */
 @SmallTest
-class EditUserUseCaseSpec {
+class EditUserUsecaseSpec {
     private lateinit var sut: EditUserUseCase
     private lateinit var userRepository: UserRepository
 

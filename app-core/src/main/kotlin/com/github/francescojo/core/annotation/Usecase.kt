@@ -12,4 +12,4 @@ package com.github.francescojo.core.annotation
 @Target(AnnotationTarget.CLASS)
 @Retention(AnnotationRetention.RUNTIME)
 @MustBeDocumented
-annotation class UseCase
+annotation class Usecase

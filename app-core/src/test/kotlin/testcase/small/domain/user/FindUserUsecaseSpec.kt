@@ -22,7 +22,7 @@ import java.util.*
  * @since 2021-08-10
  */
 @SmallTest
-class FindUserUseCaseSpec {
+class FindUserUsecaseSpec {
     private lateinit var sut: FindUserUseCase
     private lateinit var userRepository: UserRepository
 

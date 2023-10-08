@@ -4,7 +4,7 @@
  */
 package com.github.francescojo.core.domain.user.usecase
 
-import com.github.francescojo.core.annotation.UseCase
+import com.github.francescojo.core.annotation.Usecase
 import com.github.francescojo.core.domain.user.User
 import com.github.francescojo.core.domain.user.exception.SameEmailUserAlreadyExistException
 import com.github.francescojo.core.domain.user.exception.SameNicknameUserAlreadyExistException
@@ -30,7 +30,7 @@ interface CreateUserUseCase {
     }
 }
 
-@UseCase
+@Usecase
 internal class CreateUserUseCaseImpl(
     private val users: UserRepository
 ) : CreateUserUseCase {
